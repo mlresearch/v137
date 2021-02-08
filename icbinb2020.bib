@@ -1,0 +1,123 @@
+@Proceedings{ICBINB2020,
+	booktitle = {Proceedings on ``{I} Can't Belive It's Not Better!'' at {NeurIPS} Workshop},
+	name = {``I Can't Belive It's Not Better!'' at {NeurIPS} Workshop},
+	shortname = {ICBINB},
+	year = {2020},
+	start = {2020-12-12},      
+	end = {2020-12-12},
+	published = {2020-02-08},
+	address = {NeurIPS Workshop, Virtual},
+	url = {https://i-cant-believe-its-not-better.github.io/},
+}
+
+@InProceedings{gordon20,
+    title = {Uses and Abuses of the Cross-Entropy Loss: Case Studies in Modern Deep Learning},
+    author = {Gordon-Rodriguez, Elliott and Loaiza-Ganem, Gabriel and Pleiss, Geoff and Cunningham, John Patrick},
+    pages = {1-10},
+    abstract = {Modern deep learning is primarily an experimental science, in which empirical advances occasionally come at the expense of probabilistic rigor. Here we focus on one such example; namely the use of the categorical cross-entropy loss to model data that is not strictly categorical, but rather takes values on the simplex. This practice is standard in neural network architectures with label smoothing and actor-mimic reinforcement learning, amongst others. Drawing on the recently discovered continuous-categorical distribution, we propose probabilistically-inspired alternatives to these models, providing an approach that is more principled and theoretically appealing. Through careful experimentation, including an ablation study, we identify the potential for outperformance in these models, thereby highlighting the importance of a proper probabilistic treatment, as well as illustrating some of the failure modes thereof.},
+}
+
+@InProceedings{wang20,
+    title = {Further Analysis of Outlier Detection with Deep Generative Models},
+    author = {Wang, Ziyu and Dai, Bin and Wipf, David and Zhu, Jun},
+    pages = {11-20},
+    abstract = {The recent, counter-intuitive discovery that deep generative models (DGMs) can frequently assign a higher likelihood to outliers has implications for both outlier detection applications as well as our overall understanding of generative modeling. In this work, we present a possible explanation for this phenomenon, starting from the observation that a model’s typical set and high-density region may not conincide. From this vantage point we propose a novel outlier test, the empirical success of which suggests that the failure of existing likelihood-based outlier tests does not necessarily imply that the corresponding generative model is uncalibrated. We also conduct additional experiments to help disentangle the impact of low-level texture versus high-level semantics in differentiating outliers. In aggregate, these results suggest that modifications to the standard evaluation practices and benchmarks commonly applied in the literature are needed.},
+}
+
+@InProceedings{rosca20,
+    title = {A case for new neural network smoothness constraints},
+    author = {Rosca, Mihaela and Weber, Theophane and Gretton, Arthur and Mohamed, Shakir},
+    pages = {21-32},
+    abstract = {How sensitive should machine learning models be to input changes? We tackle the question of model smoothness and show that it is a useful inductive bias which aids generalization, adversarial robustness, generative modeling and reinforcement learning. We explore current methods of imposing smoothness constraints and observe they lack the flexibility to adapt to new tasks, they don’t account for data modalities, they interact with losses, architectures and optimization in ways not yet fully understood. We conclude that new advances in the field are hinging on finding ways to incorporate data, tasks and learning into our definitions of smoothness.}
+}
+
+@InProceedings{yan20,
+    title = {The Curious Case of Stacking Boosted Relational Dependency Networks},
+    author = {Yan, Siwen and Dhami, Devendra Singh and Natarajan, Sriraam},
+    pages = {33-42},
+    abstract = {Reducing bias while learning and inference is an important requirement to achieve generalizable and better performing models. The method of stacking took the first step towards creating such models by reducing inference bias but the question of combining stacking with a model that reduces learning bias is still largely unanswered. In statistical relational learning, ensemble models of relational trees such as boosted relational dependency networks (RDN-Boost) are shown to reduce the learning bias. We combine RDN-Boost and stacking methods with the aim of reducing both learning and inference bias subsequently resulting in better overall performance. However, our evaluation on three relational data sets shows no significant performance improvement over the baseline models.}
+}
+
+@InProceedings{jorge20,
+    title = {Inferential Induction: A Novel Framework for {B}ayesian Reinforcement Learning},
+    author = {Jorge, Emilio and Eriksson, Hannes and Dimitrakakis, Christos and Basu, Debabrota and Grover, Divya},
+    pages = {43-52},
+    abstract = {Bayesian Reinforcement Learning (BRL) offers a decision-theoretic solution to the reinforcement learning problem. While ``model-based'' BRL algorithms have focused either on maintaining a posterior distribution on models, BRL ``model-free'' methods try to estimate value function distributions but make strong implicit assumptions or approximations. We describe a novel Bayesian framework, \emph{inferential induction}, for correctly inferring value function distributions from data, which leads to a new family of BRL algorithms. We design an algorithm, Bayesian Backwards Induction (BBI), with this framework. We experimentally demonstrate that BBI is competitive with the state of the art. However, its advantage relative to existing BRL model-free methods is not as great as we have expected, particularly when the additional computational burden is taken into account.}
+}
+
+@InProceedings{frank20,
+    title = {Problems using deep generative models for probabilistic audio source separation},
+    author = {Frank, Maurice and Ilse, Maximilian},
+    pages = {53-59},
+    abstract = {Recent advancements in deep generative modeling make it possible to learn prior distributions from complex data that subsequently can be used for Bayesian inference. However, we find that distributions learned by deep generative models for audio signals do not exhibit the right properties that are necessary for tasks like audio source separation using a probabilistic approach. We observe that the learned prior distributions are either discriminative and extremely peaked or smooth and non-discriminative. We quantify this behavior for two types of deep generative models on two audio datasets.}
+}
+
+@InProceedings{chen20,
+    title = {Self-Tuning Stochastic Optimization with Curvature-Aware Gradient Filtering},
+    author = {Chen, Ricky T. Q. and Choi, Dami and Balles, Lukas and Duvenaud, David and Hennig, Philipp},
+    pages = {60-69},
+    abstract = {Standard first-order stochastic optimization algorithms base their updates solely on the average mini-batch gradient, and it has been shown that tracking additional quantities such as the curvature can help de-sensitize common hyperparameters. Based on this intuition, we explore the use of exact per-sample Hessian-vector products and gradients to construct optimizers that are self-tuning and hyperparameter-free. Based on a dynamics model of the gradient, we derive a process which leads to a curvature-corrected, noise-adaptive online gradient estimate. The smoothness of our updates makes it more amenable to simple step size selection schemes, which we also base off of our estimates quantities. We prove that our model-based procedure converges in the noisy quadratic setting. Though we do not see similar gains in deep learning tasks, we can match the performance of well-tuned optimizers and ultimately, this is an interesting step for constructing self-tuning optimizers.}
+}
+
+@InProceedings{mitrovic20,
+    title = {Less can be more in contrastive learning},
+    author = {Mitrovic, Jovana and McWilliams, Brian and Rey, Melanie},
+    pages = {70-75},
+    abstract = {Unsupervised representation learning provides an attractive alternative to its supervised counterpart because of the abundance of unlabelled data. Contrastive learning has recently emerged as one of the most successful approaches to unsupervised representation learning. Given a datapoint, contrastive learning involves discriminating between a matching, or positive, datapoint and a number of non-matching, or negative, ones. Usually the other datapoints in the batch serve as the negatives for the given datapoint. It has been shown empirically that large batch sizes are needed to achieve good performance, which led the the belief that a large number of negatives is preferable. In order to understand this phenomenon better, in this work investigate the role of negatives in contrastive learning by decoupling the number of negatives from the batch size. Surprisingly, we discover that for a fixed batch size performance actually degrades as the number of negatives is increased. We also show that using fewer negatives can lead to a better signal-to-noise ratio for the model gradients, which could explain the improved performance.}
+}
+
+@InProceedings{lovatto20,
+    title = {Decision-Aware Model Learning for Actor-Critic Methods: When Theory Does Not Meet Practice},
+    author = {Lovatto, \^{A}ngelo G. and Bueno, Thiago P. and Mau\'{a}, Denis D. and de Barros, Leliane N.},
+    pages = {76-86},
+    abstract = {Actor-Critic methods are a prominent class of modern reinforcement learning algorithms based on the classic Policy Iteration procedure. Despite many successful cases, Actor-Critic methods tend to require a gigantic number of experiences and can be very unstable. Recent approaches have advocated learning and using a world model to improve sample efficiency and reduce reliance on the value function estimate. However, learning an accurate dynamics model of the world remains challenging, often requiring computationally costly and data-hungry models. More recent work has shown that learning an everywhere accurate model is unnecessary and often detrimental to the overall task; instead, the agent should improve the world model on task-critical regions. For example, in Iterative Value-Aware Model Learning, the authors extend model-based value iteration by incorporating the value function (estimate) into the model loss function, showing the novel model objective reflects improved performance in the end task. Therefore, it seems natural to expect that model-based Actor-Critic methods can benefit equally from learning value-aware models, improving overall task performance, or reducing the need for large, expensive models. However, we show empirically that combining Actor-Critic and value-aware model learning can be quite difficult and that naive approaches such as maximum likelihood estimation often achieve superior performance with less computational cost. Our results suggest that, despite theoretical guarantees, learning a value-aware model in continuous domains does not ensure better performance on the overall task.}
+}
+
+@InProceedings{huang20,
+    title = {Understanding Generalization Through Visualizations},
+    author = {Huang, W. Ronny and Emam, Zeyad and Goldblum, Micah and Fowl, Liam and Terry, Justin K. and Huang, Furong and Goldstein, Tom},
+    pages = {87-97},
+    abstract = {The power of neural networks lies in their ability to generalize to unseen data, yet the underlying reasons for this phenomenon remain elusive. Numerous rigorous attempts have been made to explain generalization, but available bounds are still quite loose, and analysis does not always lead to true understanding. The goal of this work is to make generalization more intuitive. Using visualization methods, we discuss the mystery of generalization, the geometry of loss landscapes, and how the curse (or, rather, the blessing) of dimensionality causes optimizers to settle into minima that generalize well.}
+}
+
+@InProceedings{jung20,
+    title = {A Worrying Analysis of Probabilistic Time-series Models for Sales Forecasting},
+    author = {Jung, Seungjae and Kim, Kyung-Min and Kwak, Hanock and Park, Young-Jin},
+    pages = {98-105},
+    abstract = {Probabilistic time-series models become popular in the forecasting field as they help to make optimal decisions under uncertainty. Despite the growing interest, a lack of thorough analysis hinders choosing what is worth applying for the desired task. In this paper, we analyze the performance of three prominent probabilistic time-series models for sales forecasting. To remove the role of random chance in architecture’s performance, we make two experimental principles; 1) Large-scale dataset with various cross-validation sets. 2) A standardized training and hyperparameter selection. The experimental results show that a simple Multi- layer Perceptron and Linear Regression outperform the probabilistic models on RMSE without any feature engineering. Overall, the probabilistic models fail to achieve better performance on point estimation, such as RMSE and MAPE, than comparably simple baselines. We analyze and discuss the performances of probabilistic time-series models.}
+}
+
+@InProceedings{biderman20,
+    title = {Pitfalls in Machine Learning Research: Reexamining the Development Cycle},
+    author = {Biderman, Stella and Scheirer, Walter J.},
+    pages = {106-117},
+    abstract = {Applied machine learning research has the potential to fuel further advances in data science, but it is greatly hindered by an ad hoc design process, poor data hygiene, and a lack of statistical rigor in model evaluation. Recently, these issues have begun to attract more attention as they have caused public and embarrassing issues in research and development. Drawing from our experience as machine learning researchers, we follow the applied machine learning process from algorithm design to data collection to model evaluation, drawing attention to common pitfalls and providing practical recommendations for improvements. At each step, case studies are introduced to highlight how these pitfalls occur in practice, and where things could be improved.}
+}
+
+@InProceedings{kumar20,
+    title = {End-to-End Differentiable {GANs} for Text Generation},
+    author = {Kumar, Sachin and Tsvetkov, Yulia},
+    pages = {118-128},
+    abstract = {Despite being widely used, text generation models trained with maximum likelihood estimation (MLE) suffer from known limitations. Due to a mismatch between training and inference, they suffer from exposure bias. Generative adversarial networks (GANs), on the other hand, by leveraging a discriminator, can mitigate these limitations. However, discrete nature of text makes the model non-differentiable hindering training. To deal with this issue, the approaches proposed so far, using reinforcement learning or softmax approximatons are unstable and have been shown to underperform MLE. In this work, we consider an alternative setup where we represent each word by a pretrained vector. We modify the generator to output a sequence of such word vectors and feed them directly to the discriminator making the training process differentiable. Through experiments on unconditional text generation with Wasserstein GANs, we find that while this approach, without any pretraining is more stable while training and outperforms other GAN based approaches, it still falls behind MLE. We posit that this gap is due to autoregressive nature and architectural requirements for text generation as well as a fundamental difference between the definition of Wasserstein distance in image and text domains.}
+}
+
+@InProceedings{kavalerov20,
+    title = {A study of quality and diversity in {K+1} {GANs}},
+    author = {Kavalerov, Ilya and Czaja, Wojciech and Chellappa, Rama},
+    pages = {129-135},
+    abstract = {We study the $K+1$ GAN paradigm which generalizes the canonical true/fake GAN by training a generator with a $K+1$-ary classifier instead of a binary discriminator. We show how the standard formulation of the $K+1$ GAN does not take advantage of class information fully and show how its learned generative data distribution is no different than the distribution that a traditional binary GAN learns. We then investigate another GAN loss function that dynamically labels its data during training, and show how this leads to learning a generative distribution that emphasizes the target distribution modes. We investigate to what degree our theoretical expectations of these GAN training strategies have impact on the quality and diversity of learned generators on real-world data.}
+}
+
+@InProceedings{rudolph20,
+    title = {Graph Conditional Variational Models: Too Complex for Multiagent Trajectories?},
+    author = {Rudolph, Yannick and Brefeld, Ulf and Dick, Uwe},
+    pages = {136-147},
+    abstract = {Recent advances in modeling multiagent trajectories combine graph architectures such as graph neural networks (GNNs) with conditional variational models (CVMs) such as variational RNNs (VRNNs). Originally, CVMs have been proposed to facilitate learning with multi-modal and structured data and thus seem to perfectly match the requirements of multi-modal multiagent trajectories with their structured output spaces. Empirical results of VRNNs on trajectory data support this assumption. In this paper, we revisit experiments and proposed architectures with additional rigour, ablation runs and baselines. In contrast to common belief, we show that prior results with CVMs on trajectory data might be misleading. Given a neural network with a graph architecture and/or structured output function, variational autoencoding does not seem to contribute statistically significantly to empirical performance. Instead, we show that well-known emission functions do contribute, while coming with less complexity, engineering and computation time.}
+}
+
+@InProceedings{camino20,
+    title = {Oversampling Tabular Data with Deep Generative Models: Is it worth the effort?},
+    author = {Camino, Ramiro D. and State, Radu and Hammerschmidt, Christian A.},
+    pages = {148-157},
+    abstract = {In practice, machine learning experts are often confronted with imbalanced data. Without accounting for the imbalance, common classifiers perform poorly, and standard evaluation metrics mislead the practitioners on the model’s performance. A standard method to treat imbalanced datasets is under- and oversampling. In this process, samples are removed from the majority class, or synthetic samples are added to the minority class. In this paper, we follow up on recent developments in deep learning. We take proposals of deep generative models and study these approaches' ability to provide realistic samples that improve performance on imbalanced classification tasks via oversampling. Across 160K+ experiments, we show that the improvements in terms of performance metric, while shown to be significant when ranking the methods like in the literature, often are minor in absolute terms, especially compared to the required effort. Furthermore, we notice that a large part of the improvement is due to undersampling, not oversampling.}
+}
