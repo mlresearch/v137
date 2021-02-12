@@ -1,5 +1,5 @@
 ---
-booktitle: Proceedings on "I Can't Belive It's Not Better!" at NeurIPS Workshops
+booktitle: Proceedings on "I Can't Believe It's Not Better!" at NeurIPS Workshops
 shortname: ICBINB
 year: '2020'
 start: 2020-12-12
@@ -15,7 +15,7 @@ month: 0
 cycles: false
 title: Proceedings of Machine Learning Research
 description: |
-  Proceedings on "I Can't Belive It's Not Better!" at NeurIPS Workshops
+  Proceedings on "I Can't Believe It's Not Better!" at NeurIPS Workshops
     Held in NeurIPS Workshop, Virtual on 12 December 2020
 
   Published as Volume 137 by the Proceedings of Machine Learning Research on 08 February 2020.
@@ -53,8 +53,8 @@ display:
 volume: 137
 email: ''
 conference:
-  name: '"I Can''t Belive It''s Not Better!" at NeurIPS Workshops'
-  url: 
+  name: '"I Can''t Believe It''s Not Better!" at NeurIPS Workshops'
+  url:
   location: NeurIPS Workshop, Virtual
   dates:
   - 2020-12-12
