@@ -13,6 +13,15 @@ issn: 2640-3498
 id: ICBINB2020
 month: 0
 cycles: false
+editor:
+- given: Jessica 
+  family: Zosa Forde
+- given: Francisco
+  family: Ruiz
+- given: Melanie F. 
+  family: Pradier
+- given: Aaron 
+  family: Schein
 title: Proceedings of Machine Learning Research
 description: |
   Proceedings on "I Can't Believe It's Not Better!" at NeurIPS Workshops
@@ -20,6 +29,12 @@ description: |
 
   Published as Volume 137 by the Proceedings of Machine Learning Research on 08 February 2020.
 
+  Volume Edited by:
+    Jessica Zosa Forde
+    Francisco Ruiz
+    Melanie F. Pradier
+    Aaron Schein
+    
   Series Editors:
     Neil D. Lawrence
     Mark Reid
