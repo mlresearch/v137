@@ -24,6 +24,15 @@ lastpage: 10
 page: 1-10
 order: 1
 cycles: false
+editor:
+- given: Jessica 
+  family: Zosa Forde
+- given: Francisco
+  family: Ruiz
+- given: Melanie F. 
+  family: Pradier
+- given: Aaron 
+  family: Schein
 bibtex_author: Gordon-Rodriguez, Elliott and Loaiza-Ganem, Gabriel and Pleiss, Geoff
   and Cunningham, John Patrick
 author:
