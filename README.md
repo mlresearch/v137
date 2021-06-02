@@ -10,7 +10,11 @@ For details of how to publish in PMLR please check http://proceedings.mlr.press/
 
 For details of what is required to submit a proceedings please check http://proceedings.mlr.press/spec.html
 
-
+Volume Edited by:
+  Jessica Zosa Forde
+  Francisco Ruiz
+  Melanie F. Pradier
+  Aaron Schein
 
 Published as Volume 137 by the Proceedings of Machine Learning Research on 08 February 2020.
 
